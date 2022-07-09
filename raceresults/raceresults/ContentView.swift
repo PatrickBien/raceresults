@@ -7,9 +7,13 @@
 
 import SwiftUI
 
+var ach = Result(firstName: "p", lastName: "b", rank: 3, team: "p", birthYear: 8)
+
+
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, race with patrick!")
+        Text(ach.basicData())
             .padding()
     }
 }
